@@ -1,0 +1,43 @@
+<!doctype HTML>
+
+<html>
+
+<head>
+<title>Lyrics for everyone</title>
+<link rel="shortcut icon" href="images/icon.png" type="image/png">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<script src="script.js"/></script>
+</head>
+
+<body   id="main_page"  onload="load()" onresize="load()">
+<div id="backgroundaudio">
+ <audio id="player" autoplay="" controls="" loop="" preload="">
+  <source src="sounds/riddle.mp3" type="audio/mpeg"></source>
+  Your browser does not support the audio element.
+ </audio>
+</div>
+<header>
+<div id="head_div">
+<div id="logo">
+<a href="index.html" title="Lyrics for everyone" >
+<img id="logo_img" src="images/icon.png">
+</a>
+</div>
+<div id="heading">
+<h1>Lyrics for everyone </h1>
+<p>The ultimate site for all your lyrics</p>
+</div>
+</div>
+</header>
+
+<nav>
+<div id="nav_bar">
+</div>
+</nav>
+
+<section>
+<div>
+</div>
+</section>
+</body>
+</html>

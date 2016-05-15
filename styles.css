@@ -1,0 +1,71 @@
+#backgroundaudio {
+  display: block;
+visibility:hidden;
+height:0;
+width:0;
+  transition: all 1s ease-in-out 0.0;
+ }
+
+#main_page{
+background:url("images/background.jpg") center center fixed;
+background-repeat:no-repeat;
+background-size:cover;
+margin:0px;
+padding:0;
+border:none;
+}
+
+
+#head_div{
+background:none;
+border:none;
+height:20%;
+padding:0;
+margin:1%;
+top:0;
+}
+
+#logo{
+height:100%;
+float:left;
+}
+
+#logo_img{
+height:100%;
+margin:0px;
+opacity:1;
+}
+
+#heading{
+float:left;
+height:100%;
+top:0;
+opacity:0.7;
+color:yellow;
+}
+
+h1{ 
+font-size: 80px;
+text-align:center;
+padding: 0 0 0 10px;
+font-weight: bold;
+margin:0;
+top:0;
+}
+p{ 
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+margin-bottom:0px;
+padding:0;
+}
+
+#nav_bar{
+position:relative;
+height:50px;
+background:gray;
+padding:0;
+margin-top: 0px;
+opacity:0.3;
+}
